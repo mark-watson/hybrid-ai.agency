@@ -5,24 +5,34 @@
 
   <body>
     <h1>hybrid-ai.agency - human agency and AI agency</h1>
+    <p>An experimental project for experimenting with AI Agency.</p>
+    
+    <h2>Meaning of “acting with agency”</h2>
+
+    <p>To say someone acts with agency means they are initiating actions based on their own intentions rather than simply reacting to external forces. The core idea is self-directed, goal-oriented action.</p>
+
+    <p>Key components — reasoning steps:</p>
+    <ul>
+		<li>Intentionality - They form their own aims instead of being pushed along by circumstance.</li>
+	    <li>Autonomy - They choose among alternatives without coercion. Even if constraints exist, they retain some freedom of choice.</li>
+	    <li>Competence / efficacy - They can take actions that actually influence outcomes; they aren’t merely symbolic participants.</li>
+	    <li>Ownership of decisions - They see themselves as the source of their actions and are accountable for them.</li>
+    </ul>
+
+    <p>Example to anchor it:</p>
+    <ul>
+	  <li>Agency: A person who designs a plan, adjusts it as conditions change, and follows through—even under pressure—is acting with agency.</li>
+	  <li>Lack of agency: Someone who only follows instructions or defaults to habit without considering alternatives is acting with reduced agency.</li>
+    </ul>
+
+    <h2>Ideas for AI agents exhibiting Agency</h2>
+
     <p>
-      Meaning of “acting with agency”
+      True agency in AI necessitates a shift from reactive, prompt-driven architectures to persistent, goal-oriented systems that decouple Intentionality from the probabilistic nature of Large Language Models (LLMs). By maintaining the agent's core objective (the "Self") in deterministic code—such as a Common Lisp structure or LangGraph state—the system prevents the "goal drift" common in pure neural networks. This hybrid approach ensures Autonomy by giving the agent the architectural capacity to pause, reflect, and even reject user inputs or tool outputs that conflict with its immutable goals, effectively treating the LLM as a subservient cognitive engine rather than the master controller.
+    </p>
 
-To say someone acts with agency means they are initiating actions based on their own intentions rather than simply reacting to external forces. The core idea is self-directed, goal-oriented action.
-
-Key components — reasoning steps
-	1.	Intentionality
-They form their own aims instead of being pushed along by circumstance.
-	2.	Autonomy
-They choose among alternatives without coercion. Even if constraints exist, they retain some freedom of choice.
-	3.	Competence / efficacy
-They can take actions that actually influence outcomes; they aren’t merely symbolic participants.
-	4.	Ownership of decisions
-They see themselves as the source of their actions and are accountable for them.
-
-Example to anchor it
-	•	A person who designs a plan, adjusts it as conditions change, and follows through—even under pressure—is acting with agency.
-	•	Someone who only follows instructions or defaults to habit without considering alternatives is acting with reduced agency.
+    <p>
+      Operationalizing this agency requires a rigid executive control loop that enforces Competence and Ownership through symbolic reasoning. Instead of blindly executing generated plans, the agent utilizes symbolic guardrails to deterministically validate actions against safety constraints before execution, ensuring efficacy. Furthermore, by maintaining a structured reasoning trace—a log of why decisions were made, distinct from a simple chat history—the agent creates an accountable audit trail. This allows the system to autonomously detect failures, "own" the error, and trigger self-correction loops without human intervention, transforming the AI from a stochastic tool into a self-directed entity.
     </p>
 
     
